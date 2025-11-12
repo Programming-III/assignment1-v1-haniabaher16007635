@@ -35,7 +35,9 @@ Enclosure(Animal* a, int ca, int cu){
   capacity=ca;
   current=cu;
 }
-        
+   ~Enclosure(){
+       delete[]a;
+   }     
     
 };
 
