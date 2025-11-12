@@ -2,8 +2,21 @@
 #define REPTILE_H
 
 #include "Animal.h"
+class Reptile:public Animal{
+    
+private:
+bool isVenomous;
+public:
+Reptile():Animal(){
+    isVenomous= false;
+}
+    
 
-//define reptile class here
+Reptile(string n, int a, bool h, bool v):Animal(n,a,h){
+    isVenomous=v;
+}
+~Reptile(){}
+};
 
 
 
