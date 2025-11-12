@@ -10,8 +10,8 @@ class Visitor{
     int ticketsBought;
     public:
     void displayInfo(){
-        cout<< visitorName << endl;
-        cout<< ticketsBought << endl;
+        cout<< "Name: "<<visitorName << endl;
+        cout<< "Tickets Bought: "<< ticketsBought << endl;
     }
     
 };
