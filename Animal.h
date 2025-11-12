@@ -12,8 +12,8 @@ class Animal{
    bool isHungry;
 public :
 void display(){
-   cout<< name<< endl;
-   cout<< age << endl;
+  cout<< name<< endl;
+   cout<< "(Age: "<<age << ")"<<endl;
 }
 void feed(){
    if(isHungry==true){
