@@ -10,6 +10,9 @@ using namespace std;
 
 // ============== MAIN FUNCTION ==============
 int main() {
+    Animal a("Lion", 5, true);
+    Animal b("Parrot", 2, false);
+    Animal c("Snake",3,true);
     
     
     return 0;
